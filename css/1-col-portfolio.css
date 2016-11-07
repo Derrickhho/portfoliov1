@@ -43,29 +43,51 @@ footer {
 }
 
 /** Button **/
-.btn-primary {
-  color: #787878;
+.button {
+  border-radius: 5px;
   background-color: white;
-  border-color: #787878;
-  font-weight: light;
+  border: 1px solid;
+  color: gray;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.btn-primary:hover {
-  color: #787878;
-  border-color: #787878;
-  background-color: #f9f9f9;
+.button:hover {
+
+  background-color: #f4f4f4;
 }
 
-.thumbnail {
-  border: none;
+.button span {
+  cursor: pointer;
+  color: gray;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
 }
-.thumbnail:hover {
-  background-color: #f6f6f6;
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
 }
-.modal-body {
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+
+.button:hover span {
+  padding-right: 25px;
 }
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .logo {
   padding-top: 20px;
@@ -114,4 +136,49 @@ footer {
 	padding: 0;
 	background: #fff;
 	overflow: hidden;
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+
+    z-index:1032;
+}
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border:none;
+  border-radius: 0px;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+.thumbnail:hover {
+  background-color: #f6f6f6;
 }

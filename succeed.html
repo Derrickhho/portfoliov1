@@ -69,27 +69,33 @@
                 <div class="row">
 
                   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                          <img class="img-responsive img-centered" src="img/succeed/SucSeed_Home.png" alt="" data-toggle="modal" data-target=".home">
-                      </a>
+                    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                        <img src="img/succeed/SucSeed_Home.png" alt="...">
+                    </a>
                   </div>
 
                   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                          <img class="img-responsive img-centered" src="img/succeed/SucSeed_Grades2.png" alt="" data-toggle="modal" data-target=".grades2">
-                      </a>
+                    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                        <img src="img/succeed/SucSeed_Grades.png" alt="...">
+                    </a>
                   </div>
 
                   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                          <img class="img-responsive img-centered" src="img/succeed/SucSeed_Calendar.png" alt="" data-toggle="modal" data-target=".calendar">
-                      </a>
+                    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                        <img src="img/succeed/SucSeed_Grades2.png" alt="...">
+                    </a>
                   </div>
 
                   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                          <img class="img-responsive img-centered" src="img/succeed/SucSeed_Files.png" alt="" data-toggle="modal" data-target=".files">
-                      </a>
+                    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                        <img src="img/succeed/SucSeed_Calendar.png" alt="...">
+                    </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox">
+                        <img src="img/succeed/SucSeed_Files.png" alt="...">
+                    </a>
                   </div>
 
               </div>
@@ -100,35 +106,13 @@
     </div>
 
     <!-- /.container -->
-
-    <div class="modal fade bd-example-modal-lg home" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+    <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
             <div class="modal-content">
-                <img class="img-responsive img-centered" src="img/succeed/SucSeed_home.png" alt="" data-toggle="modal" data-target=".bd-example-modal-lg">
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade bd-example-modal-lg grades2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <img class="img-responsive img-centered" src="img/succeed/SucSeed_Grades2.png" alt="" data-toggle="modal" data-target=".bd-example-modal-lg">
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade bd-example-modal-lg calendar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <img class="img-responsive img-centered" src="img/succeed/SucSeed_Calendar.png" alt="" data-toggle="modal" data-target=".bd-example-modal-lg">
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade bd-example-modal-lg files" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                  <img class="img-responsive img-centered" src="img/succeed/SucSeed_Files.png" alt="" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="modal-body">
+                    <img src="" alt="" />
+                </div>
             </div>
         </div>
     </div>
@@ -138,6 +122,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
 
 </body>
 
