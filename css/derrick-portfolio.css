@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+derrick-portfolio.css
  */
 
 body {
@@ -25,6 +23,9 @@ h1,h2,h3,h4,h5 {
 .project {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.project img {
 }
 
 .tagline {
@@ -136,6 +137,7 @@ footer {
 	padding: 0;
 	background: #fff;
 	overflow: hidden;
+  box-shadow: 5px 5px 15px #efefef;
 }
 
 #lightbox .modal-content {
