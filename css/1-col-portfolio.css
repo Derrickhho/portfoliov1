@@ -97,3 +97,21 @@ footer {
   text-decoration: none;
   color:rgb(126, 126, 126);
 }
+
+.hover01 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.hover01 img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.homethumb {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
