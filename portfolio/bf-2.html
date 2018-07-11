@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BuzzFeed | Internal Feedback Tool</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <!-- Cloudflare -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <!-- Boostrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link href="../../css/derrick-portfolio.css" rel="stylesheet">
+    <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="../../js/custom.js"></script>
+    <script src="../../js/imgLarge.js"></script>
+
+    <!-- Header and Footer -->
+    <script> 
+      $(function(){
+          $("#header").load("../../caseheader.html"); 
+      });
+      $(function(){
+          $("#footer").load("../../footer.html"); 
+      });
+  </script>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div id="top" class="hidden">
+        <div id="header" class="navbar-fixed-top py-5">
+        </div>
+    </div>
+
+    <!-- Container -->
+    <div id="content" class="container-fluid col-9 hidden pb-3">
+
+        <!-- Content Description -->
+        <div class="row">
+            <div class="col-12 py-5">
+                <p class="size-6 serif bold-1 pb-4">Improving Employee Performance Reviews</p>
+                <span class="size-1">BuzzFeed Internal Tools | Product Design Intern | Summer 2017</span>
+            </div>
+        </div>
+
+    </div>
+       
+    <!-- Cover Photo -->
+    <img class="img-fluid pb-5" src="../../img/covers/bf-2Cover.jpg" alt="">
+
+    <div id="content" class="container-fluid col-9 hidden py-3">
+
+        <!-- Content -->
+        <div class="row py-5">
+
+            <!-- Sidebar -->
+            <div class="col-3 hidden-md-down fix">
+                <aside class="mb-3 fix">
+                    <p class="bold-1">Table of Contents</p>
+                    <ul id="legend" class="nav flex-md-column flex-row justify-content-between">
+                    </ul>
+
+                    <p class="bold-1 pt-5">Downloadable Files</p>
+                    <ul id="legend" class="nav flex-md-column flex-row justify-content-between">
+                        <a href="BuzzFeedBack.pdf" >
+                            <li class="size-1 nav-link pb-1"><span class="pr-2 fa fa-file-pdf-o"></span>Presentation Deck</li>
+                        </a>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- Case -->
+            <div class="col-lg-9 pb-4 case">
+
+                <!-- Project Overview -->
+                <div class="">
+                    <h1><a id="Project_Overview_2"></a>Project Overview</h1>
+                    <div class="h-divider"></div>
+                    <h2><a id="Project_Description_3"></a>Project Description</h2>
+                    <p>This project will focus on designing and developing a new platform for providing/organizing midyear/annual review feedback. The current process of emailing feedback to managers (shown below) leads to a lot of time and effort spent organizing/formatting the feedback. This stems from emails being easily missed, differing format of feedback sent (Google Doc/pasted in Email/Word Doc…etc). We want to be able to streamline this process and allow managers to focus on the quality and delivering valuable feedback rather than organizing it all out.</p>
+                    <h2><a id="Current_Process_7"></a>Current Process</h2>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/Overview1.png" alt=""></p>
+                    <p><em>Side note: This past review period (June 2017) was scheduled to take two weeks, but ended up lasting 5 weeks due to unmet deadlines and more time/effort spent organizing feedback than expected.</em></p>
+                    <h2><a id="Key_Results_20"></a>Key Results</h2>
+                    <ul>
+                        <li>Decrease <strong>number of days</strong> over first deadline dealing with <strong>feedback requests</strong></li>
+                        <li>Decrease <strong>number of days</strong> over review period where <strong>feedback is still not delivered/submitted</strong></li>
+                        <li>Decrease number of <strong>hours spent approving and organizing feedback</strong></li>
+                        <li><strong>Improve quality of feedback.</strong> Feedback should be <strong>actionable</strong>, <strong>specific</strong>, and <strong>kind</strong>. (Secondary Goal)</li>
+                    </ul>
+                    <h2><a id="Team_25"></a>Team</h2>
+                    <ul>
+                        <li><strong>Design Lead</strong> (Cap Watkins)</li>
+                        <li><strong>Engineering</strong> (Dave Mauro)</li>
+                        <li><strong>Design</strong> (Derrick Ho)</li>
+                    </ul>
+                    <h2><a id="Project_Timeline_29"></a>Project Timeline</h2>
+                    <ul>
+                        <li>~4 weeks. Dependent on H2 planning</li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <!-- People Problem and Goals -->
+                <div class="py-3">
+                    <h1><a id="People_Problem_and_Goals_31"></a>People Problem and Goals</h1>
+                    <div class="h-divider"></div>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/PeopleProblem1.png" alt=""></p>
+                    <h2><a id="Whats_the_Value_Added_34"></a>What’s the Value Added?</h2>
+                    <p>Cut down time and effort spent organizing and reminding employees to write feedback. Overall reduce the amount of time spent not related to work or providing meaningful feedback.</p>
+                    <p>In addition, reviews are scheduled to finish during the planning period between H1 and H2 so that employees are more available to respond and interpret their strengths and weaknesses for the coming half. The longer that feedback is not delivered the less pressing and focused it will become.</p>
+                </div>
+
+                <hr>
+
+                <!-- Placement Plan -->
+                <div class="py-3">
+                    <h1><a id="Understanding_the_Pain_Points_39"></a>Understanding the Pain Points</h1>
+                    <div class="h-divider"></div>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/UserResearch1.jpg" alt=""></p>
+                    <h2><a id="Research_Protocol_42"></a>Research Protocol</h2>
+                    <p>Since I had no personal experience with the feedback process, my first course of action was to interview people around the Tech team. This was to better understand common steps taken toward the process and identify the most common pain points. (Plus, as someone new to the company, it gave me a great excuse to introduce myself to a lot of cool people in the office).</p>
+                    <p>In creating a list of people to interview, I identified people both managers and IC’s, but <strong>focused mainly on managers as they were the ones who spent the most time with this process.</strong> They (managers) were the people who had to deal with the messy part of organizing and planning all reviews, so I wanted to get more of their insight into the process.</p>
+                    <p>A copy of my user protocol can be found <a href="https://www.dropbox.com/s/aftbbgzfbifehvi/Project%20Feedback%20User%20Interview%20Protocol.pdf?dl=0"><strong>here</strong></a></p>
+                </div>
+
+                <hr>
+                    
+                <!-- Content -->
+                <div class="py-3"> 
+                    <h1><a id="Mapping_Out_the_Process_50"></a>Mapping Out the Process</h1>
+                    <div class="h-divider"></div>
+                    <h2><a id="Current_Flow_and_Observed_Pain_Points_51"></a>Current Flow and Observed Pain Points</h2>
+                    <p>I started by plotting out many of the main pain-points brought up from user research in order to see where most of the friction was.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/ProcessMapping1.png" alt=""></p>
+                    <h2><a id="Understanding_the_Different_Parts_of_the_Process_57"></a>Understanding the Different Parts of the Process</h2>
+                    <p>With the above in mind, I next worked with my manager Tom Harman to look at the process as a whole and identify how to best divide up the structure for this application. I explored a variety of different flows including a focus on <strong>deadline dates</strong>, <strong>peer responses</strong>, and <strong>self vs. peer responsibilities</strong> but ultimately landed on the below.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/ProcessMapping2.png" alt=""></p>
+                    <h2><a id="Generating_a_Complete_User_Flow_63"></a>Generating a Complete User Flow</h2>
+                    <p>Having divided the product into these specific categories, I next worked on creating how each of these connected to each other. I worked with Cap Watkins (Design Lead) and Tom Harman (Design Manager) to create the following flow. Basing off my observations from user research as well as insights from Cap and Tom, to create the below chart.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/ProcessMapping3.png" alt=""></p>
+                </div>
+                    
+                <hr>
+
+                <!-- Layout Hierarchy -->
+                <div class="py-3">
+                    <h1><a id="Application_Structure_69"></a>Application Structure</h1>
+                    <div class="h-divider"></div>
+                    <p>This all led me to start thinking about how this would all fit into the page/navigation structure. Given what I know about how people work, what would be the best way to navigate between all the different tasks within this application?</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/NavigationStructure1.png" alt=""></p>
+                    <ul>
+                        <li><strong>Linear Navigation:</strong> UI dictates what needs to be done and in what order</li>
+                        <li><strong>Sidebar</strong>: Easy navigation between pages and prominently in front of user</li>
+                        <li><strong>Top Nav</strong>: Easy navigation between pages and focuses attention to the page content</li>
+                        <li><strong>Homepage</strong>: Focuses on the status of the whole feedback process</li>
+                    </ul>
+                    <h2><a id="Moving_Forward_79"></a>Moving Forward</h2>
+                    <p>Ultimately, I decided on the below layout for the following reasons:</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/NavigationStructure2.png" alt=""></p>
+                </div>
+
+                <hr>
+                    
+                <!-- Differentiating -->
+                <div class="py-3">
+                    <h1><a id="Requests_Page_85"></a>Requests Page</h1>
+                    <div class="h-divider"></div>
+                    <p>With a proper understanding of how I wanted to connect everything together, I started working on the requests page. Specifically looking at the following tasks:</p>
+                    <ol>
+                        <li>Outgoing Requests (Requests you send out)</li>
+                        <li>Incoming Requests (Requests you receive)</li>
+                    </ol>
+                </div>
+
+                <hr>
+
+                <!-- Copy -->
+                <div class="py-3">
+                    <h1><a id="Requests  Outgoing_Requests_91"></a>Outgoing Requests</h1>
+                    <div class="h-divider"></div>
+                    <p>The main thing to think about with outgoing requests involved searching for peers to write your feedback. With this search UI, I looked at 3 main things:</p>
+                    <ul>
+                        <li>Indication that you needed 3 people to write your reviews</li>
+                        <li>Knowledge of who is available to write or not (still available, but should show some sort of status)</li>
+                        <li>Know the status of a request sent out</li>
+                    </ul>
+                    <h2><a id="Search_UI_98"></a>Search UI</h2>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/OutgoingRequests1.png" alt=""></p>
+                    <p><strong>Three Search Fields</strong></p>
+                    <ul>
+                        <li>Pros: The UI helps imply what is needed (3 requested peers). Gives off a sense of urgency and need for completion.</li>
+                        <li>Cons: New BuzzFeed pattern. Space consuming and takes away from Incoming Requests. May not be entirely clear with cases of rejected requests.</li>
+                    </ul>
+                    <p><strong>Single Search Field</strong></p>
+                    <ul>
+                        <li>Pros: Common BuzzFeed pattern (used in SodaShop).</li>
+                        <li>Cons: UI does not help indicate what you have to do. Initial assumption is to make one request</li>
+                    </ul>
+                    <p><strong>Search Modal</strong></p>
+                    <ul>
+                        <li>Pros: Makes the task of requesting peers more personable and separate. More room for detail and acts as verification to ensure user is requesting the right person.</li>
+                        <li>Cons: UI does not help indicate the action. Introducing modals which may be foreign throughout the rest of the application.</li>
+                    </ul>
+                    <p>Ultimately, I decided on the below layout for the following reasons:</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/OutgoingRequests2.png" alt=""></p>
+                    <h2><a id="Search_Flow_121"></a>Search Flow:</h2>
+                    <p>Having decided on the above search UI, I next worked to create the interactive flow of it shown below.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/OutgoingRequests3.png" alt=""></p>
+                    <h2><a id="Visual_Treatments_127"></a>Visual Treatments</h2>
+                    <p>Having established the flow for requesting peers, I next looked at more visual refinements such as button stylings, selection views, and status indicators.</p>
+                    <p>The main thing that I was trying to accomplish with these explorations was 1) make sure that it followed the BuzzFeed Solid guidelines and 2) relate back to the original goals for this section of the product (below).</p>
+                    <ul>
+                        <li>Indication that you needed 3 people to write your reviews</li>
+                        <li>Knowledge of who is available to write or not (still available, but should show some sort of status)</li>
+                        <li>Know the status of a request sent out</li>
+                    </ul>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/OutgoingRequests4.png" alt=""></p>
+                </div>
+
+                <hr>
+
+                <!-- Final Design -->
+                <div class="py-3">
+                    <h1><a id="Requests  Incoming_Requests_140"></a>Incoming Requests</h1>
+                    <div class="h-divider"></div>
+                    <p>Next, in designing the incoming requests portion, the main thing I thought about involved the scan-ability and urgency placed with each person’s request. Specifically, looking at organizing these requests, I looked at 3 main things:</p>
+                    <ul>
+                        <li>Indication that you needed 3 people to write your reviews</li>
+                        <li>Knowledge of who is available to write or not (still available, but should show some sort of status)</li>
+                        <li>Know the status of a request sent out</li>
+                    </ul>
+                    <h2><a id="Request_Views_147"></a>Request Views</h2>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/IncomingRequests1.png" alt=""></p>
+                    <ul>
+                        <li><strong>Primary and Secondary Buttoned :</strong> Quick view of all incoming requests and is easily scannable. Primary buttons add a sense of urgency, but does not draw too much attention from the rest of the screen. Places the priority on outgoing request.</li>
+                        <li><strong>Horizontal Cards:</strong> Does a good job of placing a lot of attention on the request itself, however looks odd in comparison with the horizontal search bars in outgoing requests. Unable to show the quantity of requests past three.</li>
+                        <li><strong>List with Face Profiles:</strong> Places a face with the request making it more personable and urgent. Avatar element looks out of place with the rest of the page. Possibility to look back at this and incorporate it if profiles are used elsewhere.</li>
+                    </ul>
+                    <p>Soliciting feedback from critique, I decided on the below layout for the following reasons:</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/IncomingRequests2.png" alt=""></p>
+                    <h2><a id="Button_Feedback_and_User_Guidance_158"></a>Button Feedback and User Guidance</h2>
+                    <p>Next, I thought about what the feedback for accepting a feedback request would look like. Specifically, I was looking at the two explorations below, and whether it made sense to connect accepting a request directly to writing that respective person’s feedback.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/IncomingRequests3.png" alt=""></p>
+                    <p><strong>Write Feedback CTA:</strong> This might incite users to start writing their feedback right away and lead to completing written feedback sooner. Additionally, a direct CTA to writing feedback aligns with the mental model of what would happen next; similar to how accepting a request on Facebook or Instagram leads you to next view their profile.</p>
+                    <p><strong>Simple Feedback Message:</strong> The intention here was to more prominently differentiate the tasks for managing requests and writing feedback. Specifically, so that users would not get distracted and shift their focus to writing feedback rather than responding to the next request.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/IncomingRequests4.png" alt=""></p>
+                    <h2><a id="Requests  Final_Design_171"></a>Requests — Final Design</h2>
+                    <iframe src="https://player.vimeo.com/video/252437452" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <hr>
+
+                <!-- A/B Test Results -->
+                <div class="py-3">
+                    <h1><a id="Writing_Feedback_Page_177"></a>Writing Feedback Page</h1>
+                    <div class="h-divider"></div>
+                    <p>Next, I started working on the process of writing feedback. Specifically, I looked back at my user research and noted some insights I got about how people completed this task.</p>
+                    <ul>
+                        <li>Users rarely wrote their feedback in the email template. Each person had a different platform for recording their reviews and would often copy and paste their content into an email.</li>
+                        <li>People often forgot who exactly they were responsible in writing feedback for and would dig back through individual emails to remember.</li>
+                        <li>People often would write a review and then review it again later before submitting. This often led to disorganization of who they still had to write for/the progress of completion for each person.</li>
+                    </ul>
+                    <h2><a id="Page_Structure_184"></a>Page Structure</h2>
+                    <p>Starting with the page structure, I explored two main structures shown below. The first was a list view which separated the list of people a user has to write for and the writing form while the second combined the list and form together as a single page.</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/Writing1.png" alt=""></p>
+                    <ul>
+                        <li><strong>List → Writing Page:</strong> Focus is on the writing and each person gets more attention on their feedback. Writing without distraction</li>
+                        <li><strong>Sidebar:</strong> Easier to monitor progress of all writing responsibilities. Considering this application is built primarily for managers, who tend to have more people to write for, being able to check progress of all responsibilities makes more sense.</li>
+                        <li><strong>Dropdown:</strong> The focus is on the form itself while still easily able to switch between writing responsibilities. Harder to monitor progress which may incentivize user to focus on the task at hand.<br></li>
+                    </ul>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/Writing2.png" alt=""></p>
+                    <h2><a id="Sidebar_Design_195"></a>Sidebar Design</h2>
+                    <p>Moving forward with the Sidebar structure, I looked at the visual treatment of the sidebar next and how it would look in relation to the writing form. Below are a few of my explorations:</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/Writing3.png" alt=""></p>
+                    <p>After generating input from from the rest of the design team, I moved forward with a single card design as shown below. I went with this solution for a number of reasons including:</p>
+                    <p><img class="img-fluid py-3" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../../img/casestudies/bf-2/Writing4.png" alt=""></p>
+                    <h2><a id="Writing  Final_Design_206"></a>Writing — Final Design</h2>
+                    <iframe src="https://player.vimeo.com/video/252437775" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <hr>
+
+                <!-- Final Design -->
+                <div class="py-3">
+                    <h1><a id="Final_Design"></a>Final Design</h1>
+                    <div class="h-divider"></div>
+                    <iframe src="https://player.vimeo.com/video/252435659" width="100%" height="550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+
+                <hr>
+
+                <!-- Post Mortem -->
+                <div class="py-3">
+                    <h1><a id="Post_Mortem_212"></a>Post Mortem</h1>
+                    <div class="h-divider"></div>
+                    <p>At the point, the 4 week timeline for this project was up and I was ready to move onto a new team. At this point, it also gave Dave Mauro (Engineering Lead) time to catch up on the technical needs for this project.</p>
+                    <p>Coming into this project, my main objective was to kick off and scope out this project until H2 planning was complete. From here, I created a handoff document to pass on to the next designer after I left my internship. There was no immediate plan to complete this project right away which meant writing a detailed document once it got picked up again in 2 months.</p>
+                    <p>In doing so, I spent roughly half a week communicating with Cap and the rest of the team and organizing files based on BuzzFeed’s handoff protocol.</p>
+                    <h2><a id="Lessons_Learned_220"></a>Lessons Learned</h2>
+                    <p><strong>Understand the Product and Process Problem —</strong> This project left me on my own for the most part and had me learn a lot about product, data, and visual process altogether. Without a designated PM to help scope out the project or Data Scientist to validate assumptions against, I found myself learning a lot form the people around me. This taught me a lot about mentorship and communication in terms of being comfortable around those that you work with. Throughout these first four weeks, I gained insights into other product roles and established so many connections that helped set my goals and expedite process for the remainder of my internship.</p>
+                    <p><strong>Trust in My Own Visual Design —</strong> As this was my first project coming into this internship, I was still learning the BuzzFeed design critique process and picking up on things I noticed from other designers. Many of the other projects going on were built on established products though, so there was a larger emphasis on visual design and brand alignment especially with things related to site experience. For the first two weeks, I applied the same process to this product even though it was in a complete different scope which caused me to spend more effort than necessary on visual over interaction. Iterating past the first portion of the request page, I began to trust my own visual design decisions more and more and felt comfortable going in one direction straightaway.</p>
+                    <h2><a id="Next_Steps_226"></a>Next Steps</h2>
+                    <ul>
+                        <li>Finalize the ‘Monitor Feedback’ page</li>
+                        <li>Test and Iterate</li>
+                        <li>Design Email/Slack interaction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <span class="close" data-dismiss="modal">&times;</span>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img id="img01" class="img-fluid" src="" alt="">
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="">
+        <div class="">
+            <div id="footer"></div>
+        </div>
+    </div>
+
+    <!-- jQuery 
+        <script src="js/jquery.js"></script> -->
+
+        <!-- Bootstrap Core JavaScript  -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>

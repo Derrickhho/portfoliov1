@@ -11,160 +11,173 @@
 
     <title>Derrick Ho</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Emoji CSS -->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/derrick-portfolio.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script> 
+      $(function(){
+          $("#header").load("header.html"); 
+        });
+
+      $(function(){
+          $("#shortbio").load("shortbio.html"); 
+        });
+
+      $(function(){
+          $("#footer").load("footer.html"); 
+        });
+    </script>
 
 </head>
 
 <body>
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-md-12 topnav">
-                <a class="logo" href="index.html">DERRICK HO</a>
-                <span class="pull-right navlink-span">
-                  <a class="navlink" href="about.html">About</a>
-                    <a class="navlink" href="Derrick_Resume.pdf">Resume</a>
-                  </span>
-            </div>
-            <div class="col-md-9">
-            </div>
-            <div class="col-md-12">
-                <p class="tagline">Bay Area native with a degree in Hotel Administration and a passion for designing digital product experiences; proving that an eye for design comes from all sorts of <a href="https://medium.com/@derrickho/what-hospitality-administration-means-to-me-9f120302bef7#.lqafsuxkp">unconventional backgrounds</a>.</p>
-                <p>Interests include: The Golden State Warriors, Water Polo, The 2004 Grammy Nominations Album, and spectating sports I know nothing about.</p>
-
-                <ul class="list-inline social-buttons">
-                    <li><a href="mailto:derrickhho@gmail.com"><i class="fa fa-envelope"></i></a>
-                        <li>
-                            <li><a href="https://www.linkedin.com/in/derrickhho"><i class="fa fa-linkedin"></i></a>
-                                <li>
-                                    <li><a href="https://medium.com/@derrickho"><i class="fa fa-medium"></i></a>
-                                        <li>
-                </ul>
-                <hr>
-            </div>
+    <!-- Header -->
+    <div id="top" class="hidden">
+        <div id="header" class="fill-gray-light">
         </div>
-        <!-- /.row -->
+
+        <div id="shortbio" class="fill-gray-light">
+        </div>
+    </div>
+
+
+
+    <div id="content" class="hidden container px-5 pb-5">
+
+        <!-- Project Buzzfeed -->
+        <div class="py-4 project">
+            <div class="row cell--padding-y">
+                <div class="col-md-3 col-xs-12 pb-3 pb-lg-0 thumb">
+                    <img class="img-fluid" src="img/thumbnails/Hololens.png" alt="">
+                </div>
+                <div class="col-md-1 col-xs-12"></div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="pb-1 size-2 color-black bold-1">Microsoft Hololens • <span class="size-2 bold-0">Graduate Design Studio</span></p>
+                    <p class="py-1 size-2 color-gray">This project explores the different interaction models for controlling physical objects within Mixed Reality.</p><br>
+
+                    <p class="color-lightgray">Currently in progress, check back soon for full project brief<p>
+                </div>
+            </div>
+            <!-- </a> -->
+        </div>
+
+        <hr>
+
+        <!-- Project Buzzfeed -->
+        <div class="py-4 project">
+            <div class="row cell--padding-y">
+                <div class="col-md-3 col-xs-12 pb-3 pb-lg-0 thumb">
+                    <img class="img-fluid" src="img/thumbnails/BuzzfeedThumb.png" alt="">
+                </div>
+                <div class="col-md-1 col-xs-12"></div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="pb-1 size-2 color-black bold-1">BuzzFeed • <span class="size-2 bold-0">Product Design Intern</span></p>
+                    <p class="py-1 size-2 color-gray">Designed an internal feedback tool to facilitate employee performance reviews and worked with the Site Experience team to increase quiz sharing and consumption. </p>
+                    <p class="py-1 size-2 color-gray">* Watch my BuzzFeed claim to fame <a class="bold-0" href="https://www.youtube.com/watch?v=OVG-UD9mUmE">here</a> </p><br>
+
+                    <p class="color-lightgray">Please contact me personally for full case studies<p>
+                </div>
+            </div>
+            <!-- </a> -->
+        </div>
+
+        <hr>
+
+        <!-- Project Intro DPD -->
+        <div class="py-4 project">
+            <!-- <a href="portfolio/idpd.html"> -->
+            <div class="row cell--padding-y">
+                <div class="col-md-3 col-xs-12 pb-3 pb-lg-0 thumb">
+                    <img class="img-fluid" src="img/thumbnails/IDPDThumb.png" alt="">
+                </div>
+                <div class="col-md-1 col-xs-12"></div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="pb-1 size-2 color-black bold-1">Intro to Digital Product Design • <span class="size-2 bold-0">Co-Teacher</span></p>
+                    <p class="py-1 size-2 color-gray">The question at hand: How might we address the lack of practical design education at Cornell?
+                    The problem we were facing at Cornell was, being a resesarch institute, the university focused more on academia over industry application.</p>
+
+                    <p class="py-1 size-2 color-gray">As such, a few of us created a course on digital product design that focused on solving a real life problem in the form of a case study. The course was 10 weeks long and university credited. The lectures focused on product-thinking, design process, and learning relevant design tools.</p>
+
+                    <p class="py-1 size-2 color-gray">By the end, many students ended up pursuing design as a career at companies such as Facebook, Grubhub, Jet.com, IBM Maelstrom, and Amazon.</p><br><br>
+
+                    <a class="bold-0" href="portfolio/idpd.html">See Class Details</a>
+                </div>
+            </div>
+            <!-- </a> -->
+        </div>
+
+        <hr>
 
         <!-- Project TCAT -->
-        <div class="row project">
-          <div class="col-sm-3 hover01 homethumb">
-              <img class="img-responsive" src="img/thumbnails/TCATThumb.png" alt="">
-          </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>TCAT Mobile Application</b> • iOS Design</h5>
-                <p>Current work in progress. As a part of this project, I am leading the design for an application that details bus routes in the Ithaca area primarily targeting the Cornell University.</p>
-                <p>Follow the updates of the project <a href="https://paper.dropbox.com/doc/TCAT-Application-Design-Case-Study-ef8DmVBpxYG7NA6oE9RS0">here</a></p>
-            </div>
+        <div class="py-4 project">
+                <!-- <a href="portfolio/tcat.html"> -->
+                <div class="row cell--padding-y">
+                    <div class="col-md-3 col-xs-12 pb-3 pb-lg-0 thumb">
+                        <img class="img-fluid" src="img/thumbnails/TCATThumb.png" alt="">
+                    </div>
+                    <div class="col-md-1 col-xs-12"></div>
+                    <div class="col-md-8 col-xs-12">
+                        <p class="pb-1 size-2 color-black bold-1">Ithaca Transportation Application • <span class="size-2 bold-0">Design Lead</span></p>
+                        <p class="py-1 size-2 color-gray">Led Design for a mobile experience allowing Cornell students and residents of Tompkins County to easily navigate the Ithaca community using TCAT bus system.</p><br><br>
+                    <a class="bold-0 pr-5" href="portfolio/tcat-1.html">Part 1: Ideation and Interaction</a>
+                    <a class="bold-0" href="portfolio/tcat-2.html">Part 2: Designing a Consistent Visual Language</a>
+                    </div>
+                </div>
+            <!-- </a> -->
         </div>
-        <!-- /.row -->
 
         <hr>
 
-        <!-- Project Cisco -->
-        <div class="row project">
-            <div class="col-sm-3 hover01 homethumb">
-                <img class="img-responsive" src="img/thumbnails/CiscoThumb.png" alt="">
+        <!-- Misc. -->
+        <div class="py-4 project">
+                <a href="https://dribbble.com/derrickhho">
+                <div class="row cell--padding-y">
+                    <div class="col-md-3 col-xs-12 pb-3 pb-lg-0 thumb">
+                        <img class="img-fluid" src="img/thumbnails/MiscThumb.png" alt="">
+                    </div>
+                    <div class="col-md-1 col-xs-12"></div>
+                    <div class="col-md-8 col-xs-12">
+                        <p class="pb-1 size-2 color-black bold-1">Miscellaneous Work</p>
+                        <!-- <p class="pb-1 size-4 serif color-black">Miscellaneous Work</p> -->
+                        <p class="py-1 size-2 color-gray">For older work and more graphic illustrations, visit my dribbble account.</p>
+                    </div>
+                </div>
+            </a>
             </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>Cisco</b> • User Experience Intern</h5>
-                <p>Worked on Cisco’s alpha project, CDO (Cisco Defense Orchestrator), launched July 2016. Led designs for 3 main features: a page that displays all administrative activity/changes, a module that shows usefulness of security policies, and
-                    page that helps onboard security settings for new office environments.</p>
-                <p>To see this work, please <a href="mailto:derrickhho@gmail.com">contact me</a> directly.</p>
-            </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="">
+        <div class="">
+            <div id="footer"></div>
         </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Desgin Challenge 1 -->
-        <div class="row project">
-            <div class="col-sm-3 hover01 homethumb">
-                <img class="img-responsive" src="img/thumbnails/DesignChallengeThumb.png" alt="">
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>Resource Identity Challenge</b> • Design Challenge</h5>
-                <p>This design challenge centered on the idea of creating a network security interface that would restrict the access to certain websites/applications to specific people/regions/brances for a company.</p>
-                <p>Read my solution to the challenge on this <a href="#">Medium Post</a></p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Tempo -->
-        <div class="row project">
-            <div class="col-sm-3 hover01 homethumb">
-                <img class="img-responsive" src="img/thumbnails/TempoThumbnail.png" alt="">
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>Tempo</b> • iOS Design and Prototyping</h5>
-                <p>Spring 2015 CUAppDev (CUAppDev - Cornell University Application Development) project. As a part of this project, I designed the main feed navigation and post creation features of this application. This project includes creating mockups
-                    and interactive prototypes (Origami).</p>
-                <button class="button"><a href="tempo.html"><span>View Project</span></a></button>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Tempo -->
-        <div class="row project">
-            <div class="col-sm-3 hover01 homethumb">
-                <img class="img-responsive" src="img/thumbnails/EducationThumbnail.png" alt="">
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>Succeed</b> • Web App Concept</h5>
-                <p>This project is a concept for an educational platform that establishes better communication between students and teachers outside of the classroom. This includes intuitive and easy access to information students often need without the
-                    clutter of many other traditional education platforms.</p>
-                <button class="button"><a href="succeed.html"><span>View Project</span></a></button>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Misc -->
-        <div class="row project">
-            <div class="col-sm-3 hover01 homethumb">
-                <img class="img-responsive" src="img/thumbnails/MiscThumbnail.png" alt="">
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-7">
-                <h5><b>Other Work</b></h5>
-                <p>A collection of visual designs, marketing materials, and other goodies.</p>
-                <button class="button"><a href="misc.html"><span>View Work</span></a></button>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- jQuery 
+    <script src="js/jquery.js"></script> -->
 
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Bootstrap Core JavaScript  -->
     <script src="js/bootstrap.min.js"></script>
 
 </body>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TCAT | Part 1: Ideation and Interaction</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <!-- Cloudflare -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <!-- Boostrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link href="../../css/derrick-portfolio.css" rel="stylesheet">
+    <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="../../js/custom.js"></script>
+    <script src="../../js/imgLarge.js"></script>
+
+    <!-- Header and Footer -->
+    <script> 
+      $(function(){
+      $("#header").load("../../caseheader.html"); 
+      });
+      $(function(){
+          $("#footer").load("../../footer.html"); 
+      });
+  </script>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div id="top" class="hidden">
+        <div id="header" class="navbar-fixed-top py-5">
+        </div>
+    </div>
+
+    <!-- Container -->
+    <div id="content" class="container-fluid col-9 hidden pb-3">
+
+        <!-- Content Description -->
+        <div class="row">
+            <div class="col-12 py-5">
+                <p class="size-6 serif bold-1 pb-4">Part 1: Ideation and Interaction</p>
+                <span class="size-1">TCAT | Design Lead | Spring 2017</span>
+            </div>
+        </div>
+
+    </div>
+       
+    <!-- Cover Photo -->
+    <img class="img-fluid pb-5" src="../../img/covers/tcatCover.jpg" alt="">
+
+    <div id="content" class="container-fluid col-9 hidden py-3">
+
+
+        <!-- Content -->
+        <div class="row py-5">
+
+            <!-- Sidebar -->
+            <div class="col-3 hidden-md-down fix">
+                <aside class="mt-2 mb-3 fix">
+                    <p class="bold-1">Table of Contents</p>
+                    <ul id="legend" class="nav flex-md-column flex-row justify-content-between">
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- Case -->
+            <div class="col-lg-9 pb-4 case">
+
+        <!-- Project Overview -->
+        <div class="py-3">
+            <h1><a id="Ithaca_Transit_Application_Design  Part_1_0"></a>Project Overview</h1>
+            <div class="h-divider"></div>
+                <p><em>This is a two part project that details the design process for creating a mobile experience to navigate the TCAT (Tompkins Consolidated Area Transit) bus system. This is Part I, which focuses on building the structure and navigation for the product. Part II focuses on creating a meaningful visual language for the app and can be found</em> <a href="https://medium.com/@derrickho/ithaca-bus-application-design-part-ii-designing-a-consistent-visual-language-48152c39aa50#.y5aiz8kur"><em>here</em></a><em>.</em></p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/1-1_B1RxZGUaEVkSj0qwU7nOtw.png" alt="">
+                <h2>Project Brief:</h2>
+                    <p>Design a mobile experience for Cornell students and residents of Tompkins County to easily navigate the Ithaca community using TCAT bus system. This application is primarily focused on the needs of Cornell students, but should be applicable to the entire Ithaca community.</em></p>
+                <h2>Primary Problem:</h2>
+                <p>As a Cornell University student in Ithaca, the bus is the main mode of transportation. Often, I want to confidently and punctually reach their destinations, but cannot because the bus system is confusing and its information is unreliable.</p>
+                <h2>Goal:</h2>
+                <p>Simplify the TCAT system through a <strong>route planning</strong> and navigation app.</p>
+                <h2>Target User:</h2>
+                <p>Least-experienced significant user group: first-year students at Cornell University. I wanted to make it easy for first-time users to easily access the information they might need without saturating the interface with content that power-users might not need.</p>
+        </div>
+        <hr>
+
+        <!-- User Research -->
+        <div class="py-3">
+            <h1><a id="User_Research_23"></a>User Research</h1>
+            <div class="h-divider"></div>
+                <p>The first step in this project was to conduct the user research and market research to ensure that our proposed problem and goals were relevant to the people we were designing this application for.</p>
+                <p>As our main target audience was the Cornell community, we conducted research on the entire spectrum of students and staff to best identify what they wanted in a transportation application. Below are the more relevant pieces of information and the main points we inferred from them.</p>
+                <h2><a id="Trust_29"></a>1. Trust</h2>
+                <blockquote>
+                    <p><strong>What, if anything, do you worry about when you’re using the TCAT?</strong></p>
+                </blockquote>
+                <p>Most users listed out knowing if they are on the right bus at all as an issue. Because many different busses may frequent the same stop, users who are not familiar with the bus numbers and specific routes are often confused and worried about whether they are on the right bus. Additionally, users listed out bus tardiness and predictability as a big issue. For these two reasons we found that trust was a bug factor and part of designing this app would mean giving the user the most accurate and trustworthy information.</p>
+                <h2><a id="Clarity_34"></a>2. Clarity</h2>
+                <blockquote>
+                    <p><strong>What do you know about the bus stops you use? What do you want to know about unfamiliar ones?</strong></p>
+                </blockquote>
+                <p>Nearly every user cited location as the most known and sought after feature about a stop, followed by its name and a picture of it. One of the most intimidating parts of using an unfamiliar transit system is making sure you get to the right stop for the right bus at the right time. We wanted to assure and help users know exactly where they need to be.</p>
+                <h2><a id="Journey_Status_39"></a>3. Journey Status</h2>
+                <blockquote>
+                    <p><strong>When, in the entire travel process, is a map most important, if at all?</strong></p>
+                </blockquote>
+                <p>Users said they would like a map when getting to the bus stop, to help ease the trust issues that they have with the TCAT system. This was not the best worded question, being a bit prescriptive in assuming a map was needed in the solution. From the start of the semester, we wrestled with the idea of whether a map was truly necessary, and if so, where to put one. Ride14850, an existing TCAT app, did not include a map inside the application. While the app has sloppy UI and is difficult to use, the product thinking behind the flow of the app was strong, and proved that a map may not be needed.</p>
+                <p>That brings us to the competition. We turned towards many other map and transit applications to analyze how they displayed information and guided users to their destination.</p>
+                <p>A full list of interview transcripts and user responses can be found <a href="https://www.dropbox.com/s/ar5xqnhn8ezuoyl/TCAT-UserResearch.pdf?dl=0">here</a>.</p>
+        </div>
+        <hr>
+
+        <!-- Market Research -->
+        <div class="py-3">
+            <h1><a id="Market_Research_48"></a>Market Research</h1>
+            <div class="h-divider"></div>
+                <h2><a id="Ride_14850_Direct_Competitor_Current_TCAT_Bus_System_Application_49"></a>Ride 14850 (Direct Competitor- Current TCAT Bus System Application)</h2>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/2-Ride14850.png"" alt="">
+                <p>The primary application for the Ithaca community now, the default Ride14850 application’s biggest downfall is its confusing UI. However, the information provided to the user is relevant to most users and easy to understand. The problem is finding the proper way to navigate to that content. The application is littered with <strong>words and icons that do not make immediate sense to the user</strong>. Additionally, the selection process is confusing as the application focuses on names of bus stops rather than their location. During our research, we found that most users do not know the names of most bus stops except for a select few that they have learned over the years.</p>
+                <h2><a id="Google_Maps_55"></a>Google Maps</h2>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/3-GoogleMaps.png" alt="">
+                <p>With Google Maps, the journey process is mapped into three different screens, all different pages. In regards to the information hierarchy, <strong>time is one of the most important factors</strong> when riding the bus, and every important time is grouped to the left for easy scan-ability. The bold, color coded connectors matching embarking and debarking on a route clearly link bus actions. Details like walking and bus stops are minimized but present. <strong>Google utilizes intuitive icons to reduce the information load and emphasizes scan-ability</strong> throughout the application.</p>
+                <h2><a id="Apple_Maps_iOS_10_61"></a>Apple Maps (iOS 10)</h2>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/4-AppleMaps.png" alt="">
+                <p>Utilizing card overlay, Apple’s interface is centered around the map and the current location of the user. Unlike Google where the navigation is a page by page process, Apple maps uses card overlays and gestures that allow to easily dismiss the cards in anticipation that users will not be prioritizing this view. The attention here is focused on the user to <strong>discover and guide themselves through the map rather than read out directions</strong>. In regards to content, Apple uses much the same as Google’s, including their organization and information hierarchy.</p>
+        </div>
+        <hr>
+
+        <!-- Structure and Navigation -->
+        <div class="py-3">
+            <h1><a id="Application_Structure_and_Navigation_68"></a>Structure and Navigation</h1>
+            <div class="h-divider"></div>
+                <p>The first thing we looked at in designing this application from scratch was figuring out a defined structure and set of pages that can fit all the relevant information. In doing so, we wanted to limit the number of different pages away from the home screen so the user can focus on strictly finding a destination and quickest route to there.</p>
+                <p>Looking at relevant applications such as Google Maps, Uber, Lyft, and Apple Maps, we settled on the below page structure.</p>
+                <ol>
+                    <li>Home Page/Searching</li>
+                    <li>Route Selection</li>
+                    <li>Selected Route Details</li>
+                </ol>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/5-1MPE46K2qyJvAO9GXQ_M9BQ.png" alt="">
+                <hr>
+                <h1><a id="Home_Screen_80"></a>Home Screen</h1>
+                <h2><a id="Map_Relevance"></a>The Relevance of a Map</h2>
+                <p>One of the early concerns was whether to use a map in the home screen and what we wanted the users to focus on upon first entering the application. Users noted that location of the bus stop as one of the most important things they were looking for. Additionally, looking at other applications such as Uber, Lyft, Google Maps …etc., the home screen and main focus is a map detailing out the current location of the user.</p>
+                <p>However, I found our use case to be a little different. Such apps were focused on users who constantly find themselves in new locations they are not familiar with. In contrast, our target users know the Ithaca community to some knowledge or learn about it through time.</p>
+                <p>Looking back at our user research, I chose to emphasize the destinations that users were looking to go rather than the context of individual bus stops. <strong>For the most part, users use the application to find routes to places they already know</strong>. Rather, the most important thing to them was not the context of where exactly this location was, but how to most efficiently get there.</p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal"onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/6-1_CCqtzXq7Qqz2qVmgPrUoUg.png" alt="">
+                <h2><a id="Designated_Locations_92"></a>Designated Locations</h2>
+                <p>In shifting the focus of the main screen from a map to places students already know, we built an area that allows for users to access the most frequented general locations within the Cornell community. In this feature, we wanted to replicate something similar to the search feature within Apple Maps which offers a set of categories for users to choose from. Each of these designated areas houses multiple TCAT stops that users typically try and go to. We noticed in our user research, that users would go in and out between multiple searches to find the most efficient route to a specific area.</p>
+                <p>For example, North campus is the general area for freshman housing, gym, soccer field, and greek houses. Within North campus, there are multiple TCAT stops which students typically search for individually before deciding on a specific route. The goal of this feature was to allow an overview of all routes going to that general area.</p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal"onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/7-1_1QugFLg2yG7R2bRPQp1E9A.png" alt="">
+        </div>  
+        <hr>
+
+        <!-- Route Selection -->
+        <div class="py-3">
+            <h1><a id="Route_Selection_100"></a>Route Selection</h1>
+            <div class="h-divider"></div>
+                <h2><a id="Placing_Route_Options_on_the_Route_Selection_Page_101"></a>Placing Route Options on the Route Selection Page</h2>
+                <p>On the home screen, I found that the main use of the application was to find a route when needed rather than planning a route for the future. For that reason, I focused on selecting a destination rather than planning a route from a specific starting point to the destination. For this reason, I cut out a way to select a starting point and defaulted the search to starting from the users current location.</p>
+                <p>I decided to use route selection to make more advanced changes to the proposed route. Here, I allowed users to select a different starting location, along with flexibility of time as to when exactly they wanted to arrive/depart by. By default, I wanted the user to first think about where they wanted to go, and then plan out how they want to get there. <strong>The route selection page was the next step in allowing users to think about HOW they wanted to get there.</strong></p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal"onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/8-1_RtgVYkEPzK1A-pu002Rn3g.png" alt="">
+                <h2><a id="Information_Hierarchy_109"></a>Information Hierarchy</h2>
+                <p>Next, I wanted to figure out the information hierarchy for users when it came to selecting from a list of different routes. I wanted to use this hierarchy as the basis for our design as I moved toward higher fidelity. In this process I looked at relevant user research findings and alternative application solutions to come up with the following priority list:</p>
+                <ol>
+                    <li>When the bus will arrive at a location (Departure Time)</li>
+                    <li>What the location is</li>
+                    <li>Distance to given starting point</li>
+                    <li>Destination arrival time</li>
+                </ol>
+                <ul>
+                    <li><em>Also relevant was whether a specific route required a transfer to a different bus</em></li>
+                </ul>
+                <p>Below are a few explorations and what I was trying to emphasize with each one. After one more iteration, I chose <strong>C</strong>, wanting to emphasize scan-ability. This was important because different users prioritized different elements when choosing a route so I wanted to allow the user to easily compare many different elements at once.</p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal"onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/9-1_cQXkLSq5vm9XBXEic25s0A.png" alt="">
+        </div>
+        <hr>
+
+        <!-- Route Details -->
+        <div class="py-3">
+            <h1><a id="Route_Details_124"></a>Route Details</h1>
+            <div class="h-divider"></div>
+            <p>For this part of the application, I allocated the creative direction to a new member of the team, Matt Barker. Matt was originally placed on the team as a developer, but showed a lot of interest in learning the design process. I felt this feature made the most sense to Matt as it did not require many UI elements such as buttons or separate pages. Rather, I wanted him to focus on organizing the content and focus on the interaction design more than the visual aspect.</p>
+            <p>You can read Matt’s full case study on the Route Detail portion of the project <a href="https://medium.com/@mattbarker016/case-study-route-detail-view-for-upcoming-tcat-bus-app-d6621cdf2191#.d21lroee8">here</a>.</p>
+        </div>
+        <hr>
+
+        <!-- Medium Fidelity Flow -->
+        <div class="py-3">
+            <h1><a id="Medium_Fidelity_Finalized_Flow_130"></a>Medium Fidelity Flow</h1>
+            <div class="h-divider"></div>
+                <iframe width="100%" height="500" class="py-3" src="https://www.youtube.com/embed/HxJJAbSsa48" frameborder="0" allowfullscreen></iframe>
+                <h2><a id="High_Fidelity_and_Final_Designs_131"></a>High Fidelity and Visual Designs Moving Forward</h2>
+                <p>Below are the tentative high fidelity designs for the project. These designs will continue to change as the project progresses. These final designs were made in the last two weeks of the semester and are subject to change based on color palette, iconography, and any other UX changes our team may envision. Starting in the Spring, we plan on moving forward with this design to development and will ship out a product by the end of the semester (May 2017).</p>
+                <img class="py-3 img-fluid" onClick="large(this)" data-toggle="modal" data-target="#myModal"onClick="large(this)" data-toggle="modal" data-target="#myModal" src="../img/casestudies/tcat-1/10-1_JyoYDi1FTWvBQA1UYgXLxQ.png" alt="">
+        </div>
+        <hr>
+    </div>
+</div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <span class="close" data-dismiss="modal">&times;</span>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img id="img01" class="img-fluid" src="" alt="">
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="">
+        <div class="">
+            <div id="footer"></div>
+        </div>
+    </div>
+
+    <!-- jQuery 
+        <script src="js/jquery.js"></script> -->
+
+        <!-- Bootstrap Core JavaScript  -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>

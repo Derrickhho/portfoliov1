@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BuzzFeed | Internal Feedback Tool</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <!-- Cloudflare -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <!-- Boostrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link href="../../css/derrick-portfolio.css" rel="stylesheet">
+    <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="../../js/custom.js"></script>
+    <script src="../../js/imgLarge.js"></script>
+
+    <!-- Header and Footer -->
+    <script> 
+      // $(function(){
+      //     $("#header").load("../../header.html"); 
+      // });
+      $(function(){
+          $("#footer").load("../../footer.html"); 
+      });
+  </script>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div id="top" class="hidden">
+        <div id="header" class="fill-gray-light">
+        </div>
+    </div>
+
+    <!-- Container -->
+    <div id="content" class="container-fluid col-7 hidden py-3">
+
+        <!-- Content Description -->
+        <div class="row">
+            <div class="col-12 py-5 project-title">
+                <p class="size-5 bold-1 pb-1">Improving Employee Performance Reviews</p>
+                <span class="title-1">BuzzFeed • Product Design Intern</span><br>
+                <!-- <span class="text-1">Summer 2017</span> -->
+            </div>
+        </div>
+
+        <!-- Cover Photo -->
+        <img class="img-fluid pb-5" src="../../img/covers/bf-2Cover.jpg" alt="">
+
+        <!-- Content -->
+        <div class="row py-5">
+
+            <!-- Sidebar -->
+            <div class="col-3 hidden-md-down fix">
+                <aside class="mb-3 fix">
+                    <p class="bold-1">Table of Contents</p>
+                    <ul id="legend" class="nav flex-md-column flex-row justify-content-between">
+                    </ul>
+
+                    <p class="bold-1 pt-5">Downloadable Files</p>
+                    <ul id="legend" class="nav flex-md-column flex-row justify-content-between">
+                        <a href="BuzzFeedBack.pdf" >
+                            <li class="size-1 nav-link pb-1"><span class="pr-2 fa fa-file-pdf-o"></span>Presentation Deck</li>
+                        </a>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- Case -->
+            <div class="col-lg-9 pb-4 case">
+
+<h2 id="thechallenge">💪 <strong>The Challenge</strong></h2>
+
+<p>Design a standalone bill splitting app for iOS or Android. This should include the ability to split bill and tip with multiple people as well as specify tip amount or percentage (ex. 10%, 15%, 20%).</p>
+
+<h2 id="initialquestions">🤔 <strong>Initial Questions</strong></h2>
+
+<p>I listed out the main questions I want to answer. These were helpful not only in developing an initial understanding of the challenge, but also as a reference point to guide my ideation process throughout the design process.</p>
+
+<ul>
+<li>What is the problem I am addressing?</li>
+
+<li>Who am I designing for?</li>
+
+<li>What are the current pain points involved with the current solution?</li>
+
+<li>What’s the value proposition for this product?</li>
+</ul>
+
+<h2 id="stepbystepprocess">📋 <strong>Step by Step Process</strong></h2>
+
+<ol>
+<li><a href="/doc/Dropbox-Design-Challenge-1fEqR911psNRT2ajmGKlS#:uid=950713757779220670649946&amp;h2=Providing-Context"><strong>Providing Context</strong></a><strong>:</strong> People Problem, Product Goals, Constraints</li>
+
+<li><a href="/doc/Dropbox-Design-Challenge-1fEqR911psNRT2ajmGKlS#:uid=789267285505211127523824&amp;h2=Understanding-Users"><strong>Understanding Users</strong></a><strong>:</strong> User Research, Current Solutions, and Research Insights</li>
+
+<li><a href="/doc/Dropbox-Design-Challenge-1fEqR911psNRT2ajmGKlS#:uid=626680756978779698312291&amp;h2=Ideation"><strong>Ideation</strong></a><strong>:</strong> Initial User Flows, Information Requirements</li>
+
+<li><a href="/doc/Dropbox-Design-Challenge-1fEqR911psNRT2ajmGKlS#:uid=875727716955469152945585&amp;h2=Design"><strong>Design</strong></a><strong>:</strong> Wireframes, Explorations, Interactions, Motion</li>
+
+<li><a href="/doc/Dropbox-Design-Challenge-1fEqR911psNRT2ajmGKlS#:uid=736103858044562730303953&amp;h2=Final-Thoughts"><strong>Final Considerations</strong></a><strong>:</strong> Edge Cases, Next Steps, Parting Thoughts</li>
+
+<li><a href="/doc/Dropbox-Design-Challenge-qoPJel4YZO7A2VOdx2mCL#:uid=978319871453748313949559&amp;h2=%F0%9F%93%B2-Final-Prototype"><strong>Final Prototype</strong></a><strong>:</strong> See the End Result</li>
+</ol>
+
+<hr />
+
+<h1 id="providingcontext"><strong>Providing Context</strong></h1>
+
+<h2 id="peopleproblem">😧 <strong>People Problem</strong></h2>
+
+<p>Before jumping into the flows and pixels of the problem, I laid out what my understanding of the problem was and came up with the following initial problem statement:</p>
+
+<blockquote>
+  <p>Solutions like Venmo and hard cash are difficult to manage with a large group and I am often frustrated by <strong>how long it takes</strong> to: 1. <strong>Get my money back</strong> after paying for a meal and 2. <strong>Calculate out the cost</strong> of what I ate in the context of a large receipt.</p>
+</blockquote>
+
+<h2 id="productgoals">🎖️ <strong>Product Goals</strong></h2>
+
+<p>But more than just solve a problem, I envisioned this solution as a product someone would <strong>want</strong> to download and thought about what success would look like for this application.</p>
+
+<ol>
+<li>Keep users coming back (What can we offer the users past a simple calculator?)
+
+
+<ol>
+<li><em>Instagram</em> is a sharing platform as well as a photo editor; <em>Venmo</em> is a social feed as well as a payment tool; <em>Snapchat</em> is a news curator as well as a messaging platform; <strong>What can this product offer in addition to splitting the bill?</strong></li></ol>
+</li>
+
+<li>Become a go to solution for splitting the bill at the end of a meal
+
+
+<ol>
+<li>The ~dream~ is turning a brand name into a verb the same way we <em>Google</em> things, <em>Venmo</em> someone, <em>Lyft</em> somewhere. <strong>How can this solution be synonymous with splitting a dining check?</strong></li></ol>
+</li>
+</ol>
+
+<h2 id="constraintsandassumptions">🙅‍♀️ <strong>Constraints and Assumptions</strong></h2>
+
+<p>Having gone through just this initial phase, I started to understand the complexity of the problem. I realized there were things that I might not get to right away and listed out some constraints and assumptions to restrain myself from diving too deep into certain topics.</p>
+
+<ol>
+<li><strong>User Data</strong> - Will this pull profile data from Facebook in order to cut down the friction of adding someone? And how available are people’s most relevant connections to each other?</li>
+
+<li><strong>Recognition Technology</strong> - Will implementing the ability to recognize something such as voice, images, location…etc. be as accurate and seamless as possible?</li>
+
+<li><strong>Product Reach</strong> - Not everyone will have this application downloaded let alone own a smartphone. The idea here is to first get the hero right first and product reach as the secondary goal.</li>
+</ol>
+
+<hr />
+
+<h1 id="understandingusers"><strong>Understanding Users</strong></h1>
+
+<h2 id="userresearchplan">📒 <strong>User Research Plan</strong></h2>
+
+<p>I wanted to better understand the problem past my own experiences so I recruited 15 different people (6 graduate students, 5 passerby's at a coffee shop, 4 full-time employees) and walked each of them through a semi structured interview with the following research questions:</p>
+
+<ol>
+<li>What is the demographic of people that split the bill most often?</li>
+
+<li>Why do users choose to split the bill?</li>
+
+<li>What are current methods of splitting the bill now and why do users prefer those methods?</li>
+
+<li>What are users feeling emotionally through the different steps of splitting the bill?</li>
+</ol>
+
+<p>In addition to formal interviews, I also recruited 2 different groups of friends to go out to dinner on in anticipation that the check would be split*. After the experience of paying the bill, I walked each friend through a series of questions as well as asking them to recount how they felt through each part of the payment process.</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520809282151_IMG_3971.jpeg" alt="" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_27A298EB0E9E85FA10F8A26D35EFF498897647FB90767FC4C73527EC21032155_1520844888816_Dinner2.jpg" alt="" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520809340733_image.png" alt="" /></p>
+
+<p><em>*this tied in nicely with the fact that I had run out of groceries</em></p>
+
+<h2 id="mappingouttheuserjourney">🗺️ <strong>Mapping Out the User Journey</strong></h2>
+
+<p>Taking all my research results and observations, I pinpointed the most interesting and relevant thoughts and actions in a process timeline shown below:</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_27A298EB0E9E85FA10F8A26D35EFF498897647FB90767FC4C73527EC21032155_1520871427146_Artboard.png" alt="" /></p>
+
+<h2 id="researchinsights">🔬 <strong>Research Insights</strong></h2>
+
+<p>Finally, I combined all my research into three insights I would use to guide my design moving forward. These helped me make some of the more difficult design decisions and ideate on different design directions.</p>
+
+<ol>
+<li><strong>Avoiding Monetary Conflict:</strong>
+Money is a sensitive subject, and when possible, we avoid talking about it especially when it comes to how much someone is owed. </li>
+</ol>
+
+<blockquote>
+  <p>Usually when someone Venmo’s me, its a rough estimate or usually a little more than what I’m owed. There’s some sort of taboo associated with owing someone money and it’s just a little uncomfortable to confront someone about it — UW Grad Student</p>
+</blockquote>
+
+<ol>
+<li><strong>Dining as an Intimate Experience:</strong>
+Usually when people go out to eat, it is with people they know well already and feel comfortable around. Frequently, it’s the same or some sort of denomination of people together.</li>
+</ol>
+
+<blockquote>
+  <p>When I go out to eat, it’s usually with people I know pretty well already. I have one main group of friends that I usually go out with. It changes up a bit sometimes, but its pretty much the same people to be honest. — Full-Time QA at Expedia</p>
+</blockquote>
+
+<ol>
+<li><strong>Tipping as Etiquette:</strong>
+Tipping is more of an etiquette rather than a true indication of a server’s or restaurant’s sense of hospitality. Most people end up tipping the same amount (15-20%) or have no preference as to how much the person fronting the bill pays.</li>
+</ol>
+
+<blockquote>
+  <p>Honestly, [when the bill is split into multiple cards] I take a peek at other people’s bills and see how much they’re tipping first. I’m not good at mental math so calculating that out isn’t something I really want to do — Full-Time Financial Analyst at Microsoft</p>
+</blockquote>
+
+<hr />
+
+<h1 id="ideation">Ideation</h1>
+
+<h2 id="initialuserflows">📝 <strong>Initial User Flows</strong></h2>
+
+<p>In talking with people about this topic, I became aware how meaningful dining out with friends was. Whether it was people bringing up fond memories from a dinner years ago or a way to keep up with each other’s lives on a weekly basis, I thought the concept of group relationships could be this product’s value proposition along with the utility of bill splitting. </p>
+
+<p>Having settled on what I wanted this product to center around, I moved forward with thinking about user flows and came up with the following:</p>
+
+<p>| <strong>User Flow A:</strong>
+Focus on the Group and Social Aspect                                                                                                   | <strong>User Flow B:</strong>
+Focus on the Utility and Least Friction for Splitting the Bill                                                                 | <strong>User Flow C:</strong>
+Ability to <em>collaborate</em> on the Bill Splitting Process and Allow For Individual Tip Amounts                                                                                           | <strong>User Flow D:</strong>
+Focus on Sharing the Experience and Crafting a <em>Quality</em> Post:                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1️⃣ Application Feed
+  ↓
+  2️⃣ Select Friends
+  ↓
+  3️⃣ Log Food Items
+  ↓
+  4️⃣ Link Friends to Food
+  ↓
+  5️⃣ Add Post Details
+  ↓
+  6️⃣ Updated Feed | 1️⃣ Application Feed
+  ↓
+  2️⃣ Log Food Items
+  ↓
+  3️⃣ Search For Friends for Each Food Item
+  ↓
+  4️⃣ Add Post Details
+  ↓
+  5️⃣ Updated Feed | 1️⃣ Application Feed
+  ↓
+  2️⃣ Select Friends
+  ↓
+  3️⃣ Friends Notified to Collaborate on Bill
+  ↓
+  4️⃣ Each Person Links Themselves to Food Items
+  ↓
+  5️⃣ Add Post Details
+  ↓
+  6️⃣ Updated Feed | 1️⃣ Application Feed
+  ↓
+  2️⃣ Add Post Details
+  ↓
+  3️⃣ Log Food Items
+  ↓
+  4️⃣ Search For Friends for Each Food Item
+  ↓
+  5️⃣ Add Post Details
+  ↓
+  6️⃣ Updated Feed |</p>
+
+<p>With the above  concepts, I wanted to quickly visualize what each of these might look like and created the following:</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520840014195_Artboard+Copy+5.png" alt="User Flow A: Focus on Groups" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520840134241_Artboard+Copy+7.png" alt="User Flow B: Focus on Utility" /></p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520840399194_Artboard+Copy+9.png" alt="User Flow C: Focus on Collaboration" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520840269010_Artboard+Copy+8.png" alt="User Flow D: Focus on Crafting a ‘Quality Post’" /></p>
+
+<p>Ultimately, I decided on  <code>`**User Flow A (Group Focus)**`</code> because I wanted the first thing users saw was a list of their friends. This exploration places more emphasis on the interpersonal aspect of it which I believe is the more relevant value proposition over the utility of splitting a bill.</p>
+
+<p>Additionally:</p>
+
+<ul>
+<li><code>`**User Flow C (Collaboration)**`</code> might prove to be too chaotic especially looking at my research where a lot of people use the time at the end of the meal to go to the bathroom, think about next steps, check their phone, etc. </li>
+
+<li><code>`**User Flow B (Utility Focus)**`</code>  searching for people for each food item puts the focus on the food rather than the group/interpersonal aspect</li>
+
+<li><code>`**User Flow D ('Quality Post' Focus)**`</code>  puts the bill splitting in the same importance as pictures, rating, location and takes away from what would be the primary function of this application.</li>
+</ul>
+
+<p><a href="https://www.dropbox.com/sh/ckbgx0tvwmw4u6f/AAB7EVGTJspgyfRByuZuGfPpa?dl=0">+User Flow Sketches</a></p>
+
+<h2 id="refiningtheflow">✨ <strong>Refining the Flow</strong></h2>
+
+<p>Going off of interaction A, I then began refining the user flow.</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520791530611_Artboard+Copy+6.png" alt="" /></p>
+
+<h2 id="informationrequirements">☑️ <strong>Information Requirements</strong></h2>
+
+<p>Having settled on the above, I then looked at each part of the flow and decided for each step what:</p>
+
+<ol>
+<li>I was trying to achieve (Interaction Goals) and </li>
+
+<li>the information hierarchy would be. 
+| <strong><em>Part of the Process</em></strong>                                                                                                                     | <strong><em>Interaction Goals</em></strong>                                                                                                                                                                                                                                                                                                                                                                                                       | <strong><em>Information Hierarchy</em></strong>                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <strong>Application Feed -</strong> Homepage of the application                                                                                            | - Incite people to browse through food pictures</li>
+</ol>
+
+<ul>
+<li>Offer users insight into how good a restaurant might be</li>
+
+<li>Interest users through social relationships</li>
+
+<li>Incite users to react (like/comment/etc.) to a dining experience                                                                                                                                                                                                    | - Split the Bill CTA</li>
+
+<li>People involved in a shared dining experience</li>
+
+<li>Restaurant Rating</li>
+
+<li>Food Picture(s)</li>
+
+<li>Like (maybe called something else?) CTA
+
+
+<ul>
+<li>Amount of likes</li></ul>
+</li>
+
+<li>Comment CTA
+
+
+<ul>
+<li>Amount of comments</li>
+
+<li>Preview of comments</li></ul>
+</li>
+
+<li>Date
+
+
+<ul>
+<li>9 days ago vs. Feb 01 vs. 5:28pm                                                |
+| <strong>Select Friends -</strong> Add people that you dined out with and are splitting the bill with. User is automatically included                       | - Quickly select the people involved in the dining experience</li></ul>
+</li>
+
+<li>Clear indication of who has been selected</li>
+
+<li>Indication that the user is automatically tagged as a part of the experience                                                                                                                                                                                                                                      | - Top Friends</li>
+
+<li>Friends Information
+
+
+<ul>
+<li>Name</li>
+
+<li>Picture</li>
+
+<li>Mutual Friends</li>
+
+<li>Access to their profile</li></ul>
+</li>
+
+<li>Selected State</li>
+
+<li>Unselected State</li>
+
+<li>Next Button                                                                                                                                                                        |
+| <strong>Link Food to Friends -</strong> Log what was eaten during the meal and allocate your selected friends with the food items they took part in eating | - Quickly link friends to the food they ate</li>
+
+<li>Ability to quickly and accurately overview who ate what</li>
+
+<li>Quickly log what was is on the bill</li>
+
+<li>Clear indication between:
+
+
+<ul>
+<li>Requesting money for the user (self)</li>
+
+<li>Sending payment requests to everyone else to pay someone else (someone else paid the bill)</li></ul>
+</li>
+
+<li>Clear indication that the tip amount will be split amongst everyone</li>
+
+<li>Ability to enter in custom tip amount | - List of all logged food items</li>
+
+<li>Price of each logged food item</li>
+
+<li>Friends involved in the dining experience</li>
+
+<li>Indication that someone is linked to a food item</li>
+
+<li>Custom tip entry</li>
+
+<li>Tip presets</li>
+
+<li>Directed Payment CTA</li>
+
+<li>Request CTA</li>
+
+<li>Directed Payment confirmation
+
+
+<ul>
+<li>Indication of who is being paid</li></ul>
+</li>
+
+<li>Request confirmation |
+| <strong>Enter Post Details -</strong> Add details including the restaurant name, images of food, rating of the restaurant, and a caption                   | - Users care about what they are publicizing to everyone and create a ‘quality’ post</li>
+
+<li>Users are able to quickly add the name of the restaurant</li>
+
+<li>Users add the best images of their food</li>
+
+<li>Users give an accurate rating of what they felt about the restaurant                                                                                                                                                              | - Restaurant Name Input</li>
+
+<li>Images Input</li>
+
+<li>Caption Input</li>
+
+<li>Rating Input                                                                                                                                                                                                                                                            |
+| <strong>Updated Application Feed -</strong> Application feed is updated to show your new shared experience                                                 | - Indication that the feed was indeed updated</li>
+
+<li>Users ‘admire’ their created post                                                                                                                                                                                                                                                                                                                                             | - Feedback that something happened                                                                                                                                                                                                                                                                                               |</li>
+</ul>
+
+<hr />
+
+<h1 id="design">Design</h1>
+
+<p>Having laid out all the information I needed, I started working on how to visually show each part of the process. This involved lots of explorations and referencing my insights/interaction goals to help make certain design decisions</p>
+
+<h2 id="mediumfidelityexplorations"><strong>🖍️ Medium Fidelity Explorations</strong></h2>
+
+<p>Next, I created medium fidelity mockups to explore higher level things such as list vs. grid layouts, entry/exit points, information hierarchy…etc.</p>
+
+<p>Below are some of the main design decisions I made and rationale for my selected solution. </p>
+
+<ul>
+<li><p><strong>Entry Point (Application Home)</strong>
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520801807950_image.png" alt="Bottom Nav CTA" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520803301733_image.png" alt="Top Nav CTA" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520801825850_image.png" alt="In-Feed CTA" /></p>
+
+<ul>
+<li><code>**Bottom Nav CTA**</code> `` put the most emphasis on the action and would allow for other features to be placed up front such as friends, discovery…etc. I discussed how this application should be more than just a pure bill splitter so a bottom nav CTA allows for this.</li>
+
+<li><code>`**Top Nav CTA**`</code>   made to feel quick like composing a message, but felt too similar to venmo and also de-prioritizes splitting the bill</li>
+
+<li><code>`**In-Feed CTA**`</code>  associates the act of splitting the bill with the social feed, but is not accessible once feed is scrolled through</li></ul></li>
+
+
+<li><p><strong>Feed Card Layout (Application Home)</strong>
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802958608_image.png" alt="Small Group Profile Pictures" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802174976_image.png" alt="Single Person + Large Image" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802181079_image.png" alt="Single Person + Larger Image" /></p>
+
+<ul>
+<li><code>**Small Group Profile Pictures**</code> `` puts the focus on the group rather than the individual. Smaller icons also make sense in this context because these people are mainly your closer friends and therefore more easily recognizable</li>
+
+<li><code>`**Single Person + Large Image**`</code>   focus is on the individual and their sense of taste in food and ability to take a quality picture. However, this would be limited to just the poster being highlighted as opposed to everyone else</li>
+
+<li><code>`**Single Person + Larger Image**`</code>  focus is on the image, but makes the focus of this application food pictures rather than the ability to split a bill</li></ul></li>
+
+
+<li><p><strong>Paying Someone vs. Requesting Payment (After Linking Food to Friends)</strong>
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520803041886_image.png" alt="Paying the ‘Fronter’ (Someone Else Paid the Bill)" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802979464_image.png" alt="Requesting Money From Other People" /></p></li>
+</ul>
+
+<p>In research, I observed two main methods for splitting the bill including the person paying either calculate request venmo funds themselves or allocate the responsibility of paying them back to each person.</p>
+
+<blockquote>
+  <p>If I pay, can you guys do the math to figure out how much you owe and pay me?</p>
+</blockquote>
+
+<p>I wanted to design for both these scenarios and followed a similar model to Venmo’s Request/Pay model but looked at different ways of confirmation. This was important because the person splitting the bill is responsible for directing payment requests to other people <em>on behalf</em> of the person paying the bill.</p>
+
+<ul>
+<li><p><code>**Paying the 'Fronter'**</code>  /  <code>**Requesting Money From Other People**</code> : I opted for these solutions as it gave the user all the information up front and followed the same model of horizontal scroll. Originally, I wanted to dismiss the ‘Recipient Overview’ so that the issue of money confrontation (first research insight) would not be as relevant and in the users face. Ultimately though, I felt that with something as serious as giving someone money, it made the most sense to supply as much information as possible</p>
+
+<ul>
+<li><strong>Linking Friends to Food</strong></li></ul></li>
+</ul>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520803003725_image.png" alt="Horizontal Scroll" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802483915_image.png" alt="Full Page Search" />
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520802416827_image.png" alt="Vertical List" /></p>
+
+<ul>
+<li><code>**Bottom Nav CTA**</code> `` Horizontal view makes the list seem shorter and therefore the process of splitting the bill seem more efficient</li>
+
+<li><code>`**Top Nav CTA**`</code>   made to feel quick like composing a message, but felt too similar to venmo and also de-prioritizes splitting the bill</li>
+
+<li><code>`**In-Feed CTA**`</code>  associates the act of splitting the bill with the social feed, but is not accessible once feed is scrolled through</li>
+</ul>
+
+<p><a href="https://www.dropbox.com/s/zmz4ofz0nxks24x/MedFi%20Explorations.png?dl=0">+Full Layout/Interaction Explorations</a></p>
+
+<h2 id="mediumfidelityprototype"><strong>📲 Medium Fidelity Prototype</strong></h2>
+
+<p>With all this in mind, I created a quick medium prototype in order to better visualize my idea. It was one thing to have in my head how parts would connect, but another to see it in action.</p>
+
+<p>https://player.vimeo.com/video/259613292</p>
+
+<h2 id=""> </h2>
+
+<h2 id="copydocument">🔤 <strong>Copy Document</strong></h2>
+
+<p>With this prototype, I looked at the wording of specific instructions and actions. I created a copy document of all the relevant vocabulary in each step and narrowed down what made the most sense.</p>
+
+<p>For example, I initially struggled with how to properly differentiate between <strong>requests</strong> and <strong>payments to someone else</strong>. </p>
+
+<ul>
+<li>Requests was the case where <em>you</em> paid, and <em>you</em> are splitting the bill <em>yourself</em> (and therefore requesting people to pay you. On the other hand, payments to someone else meant that while you might have paid, you allocated the responsibility of splitting the bill to <em>someone else</em>. </li>
+</ul>
+
+<p>Ultimately, I settled on  <code>``**Request Payment**</code>  <strong><em>*and *</em></strong> <code>**Someone Else Paid**</code>   after quickly testing with with a few different people on what they thought would happen next.</p>
+
+<p>Another great example of how this copy document came into play was how I would list out different food items (i.e  <code>**Super Burrito**` `` vs.</code><strong>Super Burrito ($12.25)</strong>` ``). Coming from a hospitality/restaurant background, I knew that menu designs typically don’t place dashes/parentheses around dollar amounts to avoid drawing attention to them. This document helped me visualize this and make that design decision</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520826525687_image.png" alt="" /></p>
+
+<p><a href="https://www.dropbox.com/s/jpqbkga6fuqxynv/Copy%20Document.pdf?dl=0">+Copy Document</a></p>
+
+<h2 id="highfidelitymockups"><strong>🖌️ High Fidelity Mockups</strong></h2>
+
+<p>With a solid idea and set of medium fidelity explorations to go off of, I then worked to create high fidelity explorations where I looked more closely at things such as color, spacing, iconography, buttons and motion.</p>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_27A298EB0E9E85FA10F8A26D35EFF498897647FB90767FC4C73527EC21032155_1520870685032_Artboard.png" alt="" /></p>
+
+<p><a href="https://www.dropbox.com/s/mhysgmox8kecaz8/HiFi%20Explorations.png?dl=0">+High Fidelity Explorations</a></p>
+
+<h2 id="finalprototype"><strong>📲 Final Prototype</strong></h2>
+
+<p>https://player.vimeo.com/video/259612719</p>
+
+<h2 id="styleguide">🎨 <strong>Style Guide</strong></h2>
+
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_65151A97B8D741B689DF092E1D085A89B426FED1C4F2F4268C1D207C1A6BFAFC_1520836382088_Intro.png" alt="" /></p>
+
+<hr />
+
+<h1 id="finalconsiderations">Final Considerations</h1>
+
+<h2 id="edgecases">📏 <strong>Edge Cases</strong></h2>
+
+<ul>
+<li><p><strong>Product Reach</strong></p>
+
+<ul>
+<li>What if somebody doesn’t have this app? or even a smartphone? How will they be notified or reminded of how much they owe someone? What would the interaction be for the person splitting the bill to search for, say, a phone number. And also, what would that notification look like for someone without the application?</li></ul></li>
+
+<li><p><strong>Further explore manual entry</strong></p>
+
+<p><ul>
+<li>What happens if a user’s camera is broken or not able to accurately analyze what is on a bill? What kind of error would it give the user? How valuable is this edge of the user base? </li></ul>
+
+<p></p></li>
+</ul></p>
+
+<h2 id="nextsteps">🔜 <strong>Next Steps</strong></h2>
+
+<ol>
+<li><p><strong>Further explore the above edge cases</strong>
+I thought about the concept of using text messages or email as another way to request payment but would want to explore this option a bit more. Also how would manual input work? would it be possible to pull menu data from the restaurant to make this process easier? And if so what might that look like?</p></li>
+
+<li><p><strong>Usability Testing</strong>
+Next, I would start looking for ways to test the usability of this solution and look look at how long it would take for a user to successfully split a bill, how often users step back in the process, and how people perceive the social aspect of this application.</p></li>
+</ol>
+
+<h2 id="thanksforreading"><strong>😊 Thanks For Reading</strong></h2>
+
+<hr />
+
+<h1 id="appendix">Appendix</h1>
+
+<h2 id="designfolder"><strong>📂 Design Folder</strong></h2>
+
+<ul>
+<li>All Assets: https://www.dropbox.com/sh/hhg2uby826d3sud/AACSitfhHBzCtdJLMl8eTd0ia?dl=0</li>
+</ul>
+
+<h2 id="drawnoutsketches"><strong>Drawn-Out Sketches</strong></h2>
+
+<ul>
+<li>Sketches: https://www.dropbox.com/sh/ckbgx0tvwmw4u6f/AAB7EVGTJspgyfRByuZuGfPpa?dl=0</li>
+</ul>
+
+<h2 id="prototypes"><strong>📲 Prototypes</strong></h2>
+
+<ul>
+<li>HiFi Prototype: <a href="https://www.dropbox.com/s/zi7t15xbz84kmr5/HiFi%20-%20Prototype.mov?dl=0">https://www.dropbox.com/s/zi7t15xbz84kmr5/HiFi%20-%20Prototype.mov?dl=0</a></li>
+
+<li>MedFi Prototype: <a href="https://www.dropbox.com/s/emldsea6crjxawk/MedFi%20-%20Prototype.mov?dl=0">https://www.dropbox.com/s/emldsea6crjxawk/MedFi%20-%20Prototype.mov?dl=0</a></li>
+</ul>
+
+<h2 id="artboardexplorations"><strong>🖍️ Artboard Explorations</strong></h2>
+
+<ul>
+<li>HiFi Explorations: <a href="https://www.dropbox.com/s/mhysgmox8kecaz8/HiFi%20Explorations.png?dl=0">https://www.dropbox.com/s/mhysgmox8kecaz8/HiFi%20Explorations.png?dl=0</a></li>
+
+<li>MedFi Explorations: https://www.dropbox.com/s/zmz4ofz0nxks24x/MedFi%20Explorations.png?dl=0</li>
+
+<li>Copy Document: https://www.dropbox.com/s/jpqbkga6fuqxynv/Copy%20Document.pdf?dl=0</li>
+</ul>
+
+<h2 id="photos"><strong>📸 Photos</strong></h2>
+
+<ul>
+<li>Lunch: <a href="https://www.dropbox.com/s/th8f4ylw7hb73sl/Lunch.png?dl=0">https://www.dropbox.com/s/th8f4ylw7hb73sl/Lunch.png?dl=0</a></li>
+
+<li>Dinner1: https://www.dropbox.com/s/uwvhftjagukvwhq/Dinner1.jpg?dl=0</li>
+
+<li>Dinner 2: https://www.dropbox.com/s/v7ys2mwupabf3i8/Dinner2.jpg?dl=0</li>
+</ul>
+
+<h2 id="sketchfiles"><strong>💎 Sketch Files</strong></h2>
+
+<ul>
+<li>Master File: https://www.dropbox.com/s/mhvmxhl7jyu9k4h/Dropbox%20Design%20Challenge.sketch?dl=0</li>
+</ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <span class="close" data-dismiss="modal">&times;</span>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img id="img01" class="img-fluid" src="" alt="">
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="">
+        <div class="">
+            <div id="footer"></div>
+        </div>
+    </div>
+
+    <!-- jQuery 
+        <script src="js/jquery.js"></script> -->
+
+        <!-- Bootstrap Core JavaScript  -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
