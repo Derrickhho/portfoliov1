@@ -260,6 +260,10 @@ a:hover {
   font-weight: 800;
 }
 
+.thumb {
+  overflow: hidden;
+}
+
 .thumb img{
   width: 100%;
   border-radius: 8px;
@@ -286,24 +290,9 @@ a:hover {
   font-weight: 400;
 }
 
-.navbar-brand img{
+.navbar-brand{
   width:100%;
 }
-
-
-.logo img{
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .1s ease-in-out;
-  transition: .1s ease-in-out;
-}
-
-/*.logo img:hover {
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
-  -webkit-transition: .1s ease-in-out;
-  transition: .1s ease-in-out;
-}*/
 
 .width {
   width: 80%;
@@ -455,3 +444,13 @@ a:hover {
   opacity: 1;
   right: 0;
 }
+
+.red {
+  background-color: red;
+}
+
+/*testing*/
+/*
+#paper:hover img{
+    content: url('https://im.ezgif.com/tmp/ezgif-1-3f2df3052466.gif');
+}*/
