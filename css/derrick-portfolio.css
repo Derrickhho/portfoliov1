@@ -1,9 +1,9 @@
 /*!
 derrick-portfolio.css
  */
-.hidden {
+/*.hidden {
   display: none;
-}
+}*/
 
 .cover {
   max-width: 100%;
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .size-4 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 200%;
 }
 
@@ -380,8 +380,18 @@ a:hover {
   /*background-color: #F5F5F5;*/
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
-  -webkit-transition: 150ms ease-out;
-  transition: 150ms ease-out;
+  -webkit-transition: 80ms ease-out;
+  transition: 80ms ease-out;
+}
+
+.project:hover p{
+  color: #628185;
+
+}
+
+.project:hover img{
+  opacity: 0.9;
+
 }
 
 .project a{
